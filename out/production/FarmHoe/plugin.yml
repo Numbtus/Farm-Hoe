@@ -1,0 +1,7 @@
+name: TerrasiaFarmHoe
+version: 0.1
+author: Numbtus
+main: com.terrasia.farmhoe.Main
+commands:
+  fh:
+    description: give farmhoe and reload plugin

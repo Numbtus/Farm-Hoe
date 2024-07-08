@@ -1,0 +1,32 @@
+# FarmHoe plugin by Numbtus
+# Originaly developped for Terrasia: https://discord.gg/uzWsUKxJZ3
+#
+
+# Choose prefix. Please leave a space at the end
+HoePrefix: "&7[&6&lFarm&e&lHoe&7] "
+# Choose the name of the Farm Hoe, not modify after
+hoeName: "&6&lFarm &e&lHoe"
+# Choose the lore of the Farm Hoe, you can modify after
+# %canebroke% the number of sugar cane broken with the hoe
+hoeLore: "&6&lStats&7: &e&l%canebroke%"
+upgradeSystem: true
+
+
+# Enable/disable FarmHoe
+HoeEnable: true
+
+# Upgrade inventory
+# Please add a color code to prevent any bug
+hoeInventoryName: "&6&lFarm &e&lHoe &a&lUpgrade"
+inventorySize: 9
+
+
+# Upgrade settings:
+
+keyUpgradeMaxlvl: 5
+keyUpgradeEnable: true
+keyDropChancePerLevel: 0.01
+keyUpgradeCommand: "broadcast exemple :)"
+# Price level calculator system: level * keyUpgradePricePerLevel
+# Exemple: if keyUpgradePricePerLevel= 1000 and the new level is 4 the pric is: 4*1000 = 4000$
+keyUpgradePricePerLevel: 1000

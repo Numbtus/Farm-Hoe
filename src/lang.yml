@@ -1,0 +1,33 @@
+# Welcome on lang file !
+
+langFileError: "&c&lAn error occured with the lang.yml file !"
+successfullyReload: "&a&lPlugin reloaded !"
+
+
+
+playerNull: "&cInvalid Player !"
+noPermission: "&cNo permission !"
+invalidSyntaxe: "&cInvalid Syntaxe ! Syntax: &l/fh <give | upgrade > [player]"
+upgradeDisable: "&cUpgrade system is disabled"
+
+
+successfullyGiveMessage: "&7You have give a &6&lFarm&e&lHoe &7to &a%playerSend%"
+receiveSwordMessage: "You have receive a &6&lFarm&e&lHoe"
+
+# %level%
+keyUpgradeName: "&a&lKey Finder &f( Level &6%level% &f)"
+# %upgradeName% | %level%
+confirmUpgrade: "&aVous avez bien upgrade &l&2%upgradeName% &aau niveau &l&2%level%"
+maxLevelReached: "&cMax upgrade level reached !"
+notEnoughMoney: "&cYou dont have enough money to upgrade"
+
+# Hoe upgrade lore
+# Variables:
+# %price% = prix de l'upgrade
+# %level% = Level actuelle
+# %chance% = affiche le pourcentage de chance par niveau
+keyChanceLore:
+  - "&7Give &a%keyChance%&2% &7per level to drop a &akey"
+upgradePrice: "&aPrice: &l%price%"
+
+
